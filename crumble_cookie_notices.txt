@@ -244,6 +244,7 @@
 ##.js-gdpr-notice-dialog-overlay
 ##.mobile-css-live-widget_cookiePolicyWidget
 ##.mod-cookiepolicy
+##.modal-content-overlay
 ##.module-cookies-wrapper
 ##.notice--cookie
 ##.notification__content-cookie
@@ -494,6 +495,7 @@ thepostmillennial.com###main-cookie-banner, #main-trust-badge, .sh-back-to-top, 
 thetimes.co.uk###tto-cookieMessage, #tto-cookieMessageInner
 threepercenternation.com###cookie-law-info-bar, .spnf_right.spnf_ticker, .vw-scroll-to-top
 tickets.com###mainCookieDiv
+tidal.com###onetrust-consent-sdk
 timelex.eu###calibr8-cookie-compliance
 timeslive.co.za###gdpr-overlay
 timesofisrael.com##.cc-popup
