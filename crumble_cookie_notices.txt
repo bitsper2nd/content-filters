@@ -262,7 +262,11 @@
 ##.wordpress-gdpr-popup
 
 ! Local Rules
-/wrapperMessagingWithoutDetection.js$script,domain=the-sun.com|thescottishsun.co.uk|thesun.co.uk|thesun.ie
+||cdn-cookieyes.com
+||cdn-iubenda.b-cdn.net
+||usercentrics.eu
+/cookie-law-info-public.js$script
+/wrapperMessagingWithoutDetection.js$script
 1worldonline.com##.js-cookies-popup
 7news.com.au##.ToastNotification.cookie-consent--normal
 8kun.top##div>i>.disclaimer-8kun
@@ -351,7 +355,7 @@ fratellirossetti.com###cookie_warning
 ft.com###assanka_mockingbird_overlay, #barrier-dialogue, .WSODHoverPopupContainer, .barrier__container, .n-messaging-slot--cookieConsentB, .o-cookie-message, .progress-indicator__container
 gallup.com###gel-cookie-banner, [title="Gallup Cookie Banner"]
 game8.co###js-page-to-top, .js-cookies-eu.cookies-eu
-gcits.com##.avia-cookie-consent, .avia-post-nav, .mtsnb
+gcit.com.au##.avia-cookie-consent
 geeksforgeeks.org##.cookie-consent
 gettr.com##.jss86 .MuiGrid-root.MuiGrid-container:has(.MuiTypography-root):upward(2)
 gettyimages.fi###euCookieDialog
@@ -362,16 +366,12 @@ go-dove.com##app-gdpr, .fixedfooter
 gocomics.com,just-auto.com,just-drinks.com,just-food.com,just-style.com,outono.net,retropie.org.uk##.cc_banner-wrapper
 godbolt.org###simplecook
 gravatar.com##.a8c-cookie-banner
-grownmenstuff.com,securityaffairs.co###cookie-law-info-bar
+securityaffairs.com###cookie-law-info-bar
 guildwars2.com##[class*="cookieNotification"]
 gulfnews.com##.gn-cookies-warning
 head-fi.org##.js-notices.notices--bottom_fixer.notices
 headphonecheck.com###BorlabsCookieBox
-healthcentral.com##.osano-cm-window
-healthline.com###ccpa-banner
-hideipvpn.com###cookie-content_placeholder
 howardforums.com,igeeksblog.com,infowars.com##.cc-window
-hsbc.com###CookieWrapper
 hwinfo.com##.cookie-agree-with-use
 ibtimes.*###IBTCookiePolicy
 ifre.com##.welcome-cookie
@@ -379,93 +379,64 @@ ikea.com##.hnf-banner
 itv.com###itv-glob-cookie-policy, .js-site-alert.site__alert, .wrapp-cookie
 itv.com##.syrenis-cookie-widget
 itv.com##body:style(overflow: auto !important;)
-jamanetwork.com##.widget-GdprCookieBanner
-japaneseknifeimports.com##.eg-cc-window
 journals.sagepub.com###cookieBanner, #cookieBannerMobile
-kaggle.com###site-container .kyaiJw:has-text(/cookies/)
-kaggle.com##.site-header-react__cookies-notice-desktop, .site-header-react__cookies-notice-mobile
-knivesandtools.co.uk###cookies-message, #droplet
 kohler.com,redhat.com###consent_blackbar
-kubicle.com###cookie-notify
+kubicle.com##.cky-consent-bar
 litespeedtech.com##.cookie
 love2dev.com##.gdpr.footer-prompt
 malwarebytes.com###cookie-consent-alert, #lightbox-overlay, #lightbox-popup
 masters.com##.privacy-notice
 matcha-jp.com##.cookie-info
-mercola.com##.gdpr-wrap
 microcenter.com###PnlPrivacyAlert
 microsoft.com###cookie-prompt, #epb, .m-back-to-top, .site-survey-opener
 microsoftcasualgames.com###banner, #cookie-consent-container
-milorganite.com###cookie_directive_container
-mindk.com##.cookies-alert-block, .mk-btn-top
 minitool.com##.bottom-cookie-wrap
 mit.edu##.legal-banner-component
-moen.com##.plmr-c-cookie-notification
-moviequotedb.com##.altamira-gdpr-cookie-consent
 msn.com###MSN_NTP_For_Chrome_2020_1, #MSN_NTP_For_Chrome_2020_2, #cookieprivacy
 musically.com,slitherio.org###scnb-cookie-bar
-mygoodplanet.com##.thb-cookie-bar
 myspace.com###termsOfService, .eucookie
-namesilo.com##.fixed-footer
 nascar.com##.preloaded_lightbox
 nationalreview.com##.bcpNotificationBar
 nature.com##.c-site-messages, .container-type-cookies-
 netflix.com###cookie-disclosure
 newyorkfed.org###myCookieConsent
-nhsinform.scot,theiet.org###ccc
 nokia.com##.nokia_cookie-wrapper
 notebookcheck.net###nbcCookieChoice
 nvidia.com###cookiePolicy-layer
 nyse.com###cookie-disclaimer
 nytimes.com###gateway-content, #lireDock, #overlay, #step-two-modal, #welcome-back-modal, .ButtonModal-container--2sXp8, .LoginPrompt-loginPrompt, .MAG_web_anon_coronavirus-dock, .bundle-payflow, .bundle-payflow-module, .expanded-dock, .gdpr[data-testid="gdpr-dock"], .modal:not([class="modal user-settings-modal "]):not(.swiper-slide), .nytc---modal-window---contentBase, .nytc---modal-window---windowContainer, .nytc---shared---modalContentContainer, .overlay:not(svg), [data-testid="expanded-dock"]:style(display: none !important;)
 nytimes.com##div span[data-gtm-trigger="cookie_banner_dismiss"]:upward(1)
-onsitegas.com###gdpr_footer
 oup.com###oupcookiepolicy_message
 partitionwizard.com##.bottom-cookie-wrap
 pastebin.com##.popup-container > .-cookies.popup-box
 paypal-community.com##.cookie-notification, .lia-cookie-banner-alert
 paypal.com###ccpaCookieBanner
 pdfslide.net#@#.cookiebanner:not(html):not(body)
-petri.com##.gdpr-cookie-banner
-pinnacle.com##[class*="style_cookieBanner__"]
+petri.com###enlivy-kit-cookie-policy-container
 planet.com##.pl-cookies-cta-contain
 politico.com###overlayMagazine, .cookie-modal.js-cookie-modal
-privatevpn.com,sanalkurs.net,siliconrepublic.com,son-video.com,thdbretagne.bzh#@#.cookiebanner
-protocol.com##.gdpr-cookie
-psyarxiv.com##.__cookie-banner__2a81b
-pubs.acs.org###gdpr-message-modal
-rag-bone.com##.js-footer-cookie-banner
-rapidtables.com###banner
 rappler.com###cookie-popup-rappler, #emailPopupDiv
-razer.com##app-razer-cookies
+razer.com##tos-razer-cookies
 realclearpolitics.com##.cc-stop-overlay, .cc-window
 redhat.com##.redhat-cookie-banner
-registerbosch.com##.cookieinfo-banner
 remarkable.com##[class*="CookieBarstyles__Bar"]
 reuters.com##html[style*="overflow: hidden;"]:style(overflow: auto !important;)
 reviewjournal.com##.accept-cookie
 revolver.news##.notice
-revouninstaller.com###consentAccepted
-ripoffreport.com###live-gdpr, #live-popover
-risk.net###rdm-cookie-consent
-robtex.com###cookienotice
-roesle.com##.page-wrap--cookie-permission
+revouninstaller.com##.notranslate.cookiefirst-root
 rt.com##.cookies__banner
 samsung.com##.cm-cookie-geo, .f_backtotop
 samsung.com#@#.cookie-warning
-sciencenorway.no###coiConsentBanner
-sennheiser.com###uc-banner-modal
+sciencenorway.no##.adn-message.adn-window
 sevenforums.com###cookiescript_injected
 siliconrepublic.com###cookie-law > div
 soundcloud.com###sc-cookie-notification, .cookieBanner
 sourceforge.net###cmpbox, #cmpbox2
-sputniknews.com###cookieContainer, .global-fade, .modal-window
-startech.com###cookies-message, .top-product-info
 statefarm.com###notice
 statista.com###cookiesNotification
 store.vuetifyjs.com##.v-footer--fixed
 svelte.dev#@##cookie
-symbaloo.com##.eu-cookie-notice
+symbl.cc##.cookie__wrapper
 symphony.com##.sym-cookie-container-fluid
 teachable.com##.ccpa, .ccpa-consent-bar
 telegraph.co.uk###qb_cookie_consent_main
@@ -474,30 +445,16 @@ the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie###cookie-bar, .back-to-t
 thecounter.org##.modal-x
 thefa.com##.active.fa-cookie
 theguardian.com##[id*="sp_message_container"]
-theinquirer.net###rdm-cookie-consent
-themefoxx.com###cookie-consent-lite
-thepennypinchertips.com##.cache_box
 thepostmillennial.com###main-cookie-banner, #main-trust-badge, .sh-back-to-top, .sp-overlay, .tpm-backtop.el-backtop
 thetimes.co.uk###tto-cookieMessage, #tto-cookieMessageInner
-threepercenternation.com###cookie-law-info-bar, .spnf_right.spnf_ticker, .vw-scroll-to-top
 tickets.com###mainCookieDiv
-timelex.eu###calibr8-cookie-compliance
 timesofisrael.com##.cc-popup
 tinybeans.com##.elementor-popup-modal
-tripplite.com###cookieMsg
-trumpf.com##.is-open.cookieMsg.notification-small.notification
-trunews.com###ifrmCookieBanner, #main-cookie-banner, .sp-overlay, .toTopButton
-tvdateswatch.com##.cp-popup-container
+tripplite.eaton.com###cookieMsg
 ubackup.com##.ensureCookie
 uber.com##[data-baseweb="toaster"]:has-text(/third party cookies/)
-umaidry.com###cookies-wrapper, .springmail-modal, .springmail-overlay
-unicode-table.com##.js-cookie--showed.cookie
-v3.co.uk###rdm-cookie-consent
-vidup.io##.Cookie
 volkswagenag.com##.cookieWarning
-wallstreetmojo.com###cookie-block
 weather.com##[id^="WxuPrivacyDataNotice-main-"], [id^="WxuPrivacyDataNotice-meta"], [id^="main-PrivacyDataNotice"]
-whoisxmlapi.com##.cookie-message-block
 wolframalpha.com##._Sjp9:has-text(/cookies/)
 www.google.com###js-cookie-banner
 youtube.com###consent-bump:remove()
