@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/bitsper2nd/content-filters
 ! Expires: 3 Days
 
-! Global Rules
+! Global Cosmetic Rules
 ###__tealiumGDPRecModal
 ###acceptCookies
 ###adviceCookies
@@ -261,43 +261,19 @@
 ##.welcome-cookie
 ##.wordpress-gdpr-popup
 
-! Local Rules
-||cdn-cookieyes.com
-||cdn-iubenda.b-cdn.net
-||usercentrics.eu
-/cookie-law-info-public.js$script
-/wrapperMessagingWithoutDetection.js$script
-1worldonline.com##.js-cookies-popup
-7news.com.au##.ToastNotification.cookie-consent--normal
+! Local Cosmetic Rules
 8kun.top##div>i>.disclaimer-8kun
-@@||geolocation.onetrust.com/cookieconsentpub/$script
-@@||lightningmaps.org^*/cookieconsent.$script,stylesheet
-ably.io##.c-dialog--cookies.c-dialog
-abus.com###cookieChoiceModalOverlay
 accuweather.com##.privacy-policy-banner
-aerospace-technology.com,airport-technology.com,army-technology.com,chemicals-technology.com,clinicaltrialsarena.com,cosmetics-technology.com,designbuild-network.com,drinks-insight-network.com,foodprocessing-technology.com,homelandsecurity-technology.com,hospitalmanagement.net,hotelmanagement-network.com,hydrocarbons-technology.com,medicaldevice-network.com,mining-technology.com,naval-technology.com,offshore-technology.com,packaging-gateway.com,pharmaceutical-technology.com,power-technology.com,railway-technology.com,renewable-technology.com,retail-insight-network.com,roadtraffic-technology.com,ship-technology.com,verdict.co.uk,verdictfoodservice.com,water-technology.net###cookiepopup
-alarabiya.net###consent
-androidsage.com###eu-cookie-law
-anker.com##div > p:has-text(/We use cookies/):upward(2)
-antena3.com,discordbots.org,gamepedia.com,mmo-champion.com,streamable.com,woot.com##.app_gdpr--2k2uB
+anker.com##div[class^="FeatureBar"]
 anycodes.com##.privacy_policy_pop
 apnews.com,businesswire.com,cbssports.com,msn.com,nba.com,ncaa.com,nhl.com,reuters.com,spotify.com,tidal.com###onetrust-consent-sdk
-appfairness.org,weekendavisen.dk###CybotCookiebotDialogBodyUnderlay
-arcadepunks.com,ostechnix.com##.penci-wrap-gprd-law
-arianespace.com##.is-fixed.js-tirette.tirette, .js-banner.cookie
-askgamblers.com##.site-cookie
+appfairness.org###CybotCookiebotDialogBodyUnderlay
 askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com###js-gdpr-consent-banner, .js-consent-banner
 autoevolution.com,softpedia.com###cookienotif
 avsforum.com###ukCookiePopup, #vspopup-all-overlays
-babynames.net##.mntl-block.mntl-notification-banner.gdpr-notification-banner.gdpr-notification.comp
 bbc.co.uk,bbc.com###bbccookies, #cookiePrompt
 bbcstudios.com,cvce.eu,hearst.co.uk#@#.cookie-policy
 belfasttelegraph.co.uk###didomi-host, .s-belfasttelegraph > [href="#"][onclick*="Didomi"]
-berksmontnews.com,bostonherald.com,chicoer.com,dailybreeze.com,dailybulletin.com,dailydemocrat.com,dailyfreeman.com,dailylocal.com,dailynews.com,dailytribune.com,delcotimes.com,denverpost.com,eastbaytimes.com,excelsiorcalifornia.com,macombdaily.com,marinij.com,mercurynews.com,montereyherald.com,morningjournal.com,news-herald.com,ocregister.com,oneidadispatch.com,orovillemr.com,paradisepost.com,pasadenastarnews.com,pe.com,phoenixvillenews.com,pottsmerc.com,presstelegram.com,record-bee.com,redbluffdailynews.com,redlandsdailyfacts.com,santacruzsentinel.com,saratogian.com,sbsun.com,sgvtribune.com,siliconvalley.com,themorningsun.com,theoaklandpress.com,thereporter.com,thereporteronline.com,times-standard.com,timesherald.com,timesheraldonline.com,trentonian.com,troyrecord.com,twincities.com,ukiahdailyjournal.com,whittierdailynews.com##.osano-cm-window
-bilasport.net##.cc-banner, .cc-banner.cc-window, .cc-window
-birdguides.com###cookie-control-modal, .modal-backdrop
-bit-tech.net###GDPR
-blackmainstreet.net###ct-ultimate-gdpr-cookie-popup
 blog.google##.cookie-show
 blog.google,marketingplatform.google.com###cookieBar
 blog.youtube###cookieBar.cookie-show
@@ -306,68 +282,48 @@ bloomberglaw.com##[class*="CookieNotice_cookiesBar"]
 bloomberglaw.com,codex.online,evry.com,neweracap.com,threadreaderapp.com##.cookies
 bloombergtax.com##[class*="CookieNotice_cookiesBar"]
 bt.com##.cookie-ui__cookieUI___3fxp1
-business-standard.com###eu_cookie
-calendardate.com##body > div > p:has-text(/cookies/)
-cameo.com###content > div[data-reactroot=""] div:has([id="cookie-policy-banner-close-btn"])
-channel4.com###all4gn-cookie-policy-notification
-chocolatey.org,gdconf.com##.cookies-popup
+chocolatey.org###cookieNoticeAlert
+gdconf.com##.cookies-popup
 cision.com###cision-cookie-policy-banner
 ckeditor.com,mcdonalds.com#@#.cookie-banner
 codementor.io##div[class^="jsx-"]:has-text(Cookie Policy)
-coinbase.com##.ckSPDD, div.sc-fzoLsD.gkNzOD
-community.jivesoftware.com###cookie-consent-alert
-community.spotify.com###js-message-bar-cookie-notice, .lia-in.lia-dialog-titleless.lia-panel-dialog-modal-valuesurvey.lia-panel-dialog-modal-simple.lia-panel-dialog.lia-content.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, .ui-widget-overlay
-comparitech.com##.ct-cookie-consent-pop
+coinbase.com###root > div > div[style*="position: fixed"]:has(> div > p > a[href^="https://www.coinbase.com/legal/cookie"])
 complex.com##.video-bar-on-scroll--showing-cookie-notice
 complex.com##.video-embed-floated--showing-cookie-notice.vidible-embed:style(position: static !important;)
-cookieandkate.com###wbounce-modal
-couponsoar.com##.policy_footer
-cybernews.com,spieltimes.com##.jnews-cookie-law-policy
-dailyfx.com###dfx-cookies-notification, #feedbackify, .dfx-cookiesNotification, .dfx_scrollup
-dailymotion.com##.CookiePopup__popup____KSqw
-dailysabah.com##.cookies_disclaimer
+dailymotion.com##+js(set-cookie, cookie_policy_closed, 1, , reload, 1)
 datacenterdynamics.com##.cc-banner.cc-window
 dd-wrt.com,raspberrypi.org##.cookieinfo
 dell.com###consent-button-div
 developers.google.com##.devsite-notification-eu-cookie, .devsite-snackbar-snack[type="cookie-notification"]
 dfiles.eu##.cookie_popup
-digitalcitizen.life###eu-cookies-consent
+discordbots.org,fandom.com,streamable.com,woot.com##.app_gdpr--2k2uB
 distractify.com###_CookieConsent
 docs.aws.amazon.com###cookie-notice, awsui-alert, awsdocs-footer.ng-isolate-scope > awsui-alert > .awsui-alert-type-info.awsui-alert
-dunbarcycles.com##.wsa-cookielaw
-dw.com##.cookie--visible.cookie
+dw.com##.cmpwrapper
 ebay.*,yahoodatabreachsettlement.com###gdpr-banner
 educative.io##[class^="styles__BannerTransitionGroup"]
-electronicdesign.com,machinedesign.com##.gdpr-popup-border
 eng.uber.com,macys.com###__tealiumGDPRecModal
 espn.*##.active.js-feed-item-mask, .active.news-feed-item > .story_progress > .bar, .alert--fixed.alert--center.alert, .bg-opaque.mod-outbrain.mod-no-border, .cookie-overlay, .js-bloomed.favorites-mgmt.lightbox, .promo-banner-container
 europeantour.com###modalCookieContainer
-exabeam.com###cookie-info
-extrabux.com##.ccpabar
 fifa.com##.fi-back-to-top, .fi-cookie-banner
 fiverr.com###react-cookie-approval
 flightglobal.com,flightstats.com###rbiCookiePolicy_pushDownBoxWrapper
 foreignpolicy.com###paywall_bg, .cookie_message, .js-takeover, .paywall_counter, .preloaded_lightbox
-formidable.com##.formidaCookie
-forums.lenovo.com##.banner_alert
+forums.lenovo.com##.cookie-remind-warpper
 foxbusiness.com##.notification-banner
-fratellirossetti.com###cookie_warning
 ft.com###assanka_mockingbird_overlay, #barrier-dialogue, .WSODHoverPopupContainer, .barrier__container, .n-messaging-slot--cookieConsentB, .o-cookie-message, .progress-indicator__container
 gallup.com###gel-cookie-banner, [title="Gallup Cookie Banner"]
 game8.co###js-page-to-top, .js-cookies-eu.cookies-eu
-gcit.com.au##.avia-cookie-consent
 geeksforgeeks.org##.cookie-consent
 gettr.com##.jss86 .MuiGrid-root.MuiGrid-container:has(.MuiTypography-root):upward(2)
 gettyimages.fi###euCookieDialog
 gitlab.com###CybotCookiebotDialog
 globenewswire.com##.cookie-disclosure
 glosbe.com#@#.cookie-consent
-go-dove.com##app-gdpr, .fixedfooter
 gocomics.com,just-auto.com,just-drinks.com,just-food.com,just-style.com,outono.net,retropie.org.uk##.cc_banner-wrapper
-godbolt.org###simplecook
+godbolt.org##+js(set-cookie, privacy_status, 1)
 gravatar.com##.a8c-cookie-banner
 securityaffairs.com###cookie-law-info-bar
-guildwars2.com##[class*="cookieNotification"]
 gulfnews.com##.gn-cookies-warning
 head-fi.org##.js-notices.notices--bottom_fixer.notices
 headphonecheck.com###BorlabsCookieBox
@@ -389,11 +345,10 @@ masters.com##.privacy-notice
 matcha-jp.com##.cookie-info
 microcenter.com###PnlPrivacyAlert
 microsoft.com###cookie-prompt, #epb, .m-back-to-top, .site-survey-opener
-microsoftcasualgames.com###banner, #cookie-consent-container
 minitool.com##.bottom-cookie-wrap
 mit.edu##.legal-banner-component
 msn.com###MSN_NTP_For_Chrome_2020_1, #MSN_NTP_For_Chrome_2020_2, #cookieprivacy
-musically.com,slitherio.org###scnb-cookie-bar
+musically.com###scnb-cookie-bar
 myspace.com###termsOfService, .eucookie
 nascar.com##.preloaded_lightbox
 nationalreview.com##.bcpNotificationBar
@@ -411,7 +366,6 @@ partitionwizard.com##.bottom-cookie-wrap
 pastebin.com##.popup-container > .-cookies.popup-box
 paypal-community.com##.cookie-notification, .lia-cookie-banner-alert
 paypal.com###ccpaCookieBanner
-pdfslide.net#@#.cookiebanner:not(html):not(body)
 petri.com###enlivy-kit-cookie-policy-container
 planet.com##.pl-cookies-cta-contain
 politico.com###overlayMagazine, .cookie-modal.js-cookie-modal
@@ -459,6 +413,16 @@ wolframalpha.com##._Sjp9:has-text(/cookies/)
 www.google.com###js-cookie-banner
 youtube.com###consent-bump:remove()
 yubico.com##.cookie-pop
+
+! Network rules
+/borlabs-cookie$script
+/cookie-law-info-public.js$script
+/wrapperMessagingWithoutDetection.js$script
+||cdn-cookieyes.com
+||cdn-iubenda.b-cdn.net
+||usercentrics.eu
 ||gdpr-tcfv2.sp-prod.net^
 ||pastela.app/api/v1/privacy_policy/$xhr,1p
 ||pastela.app/api/v1/public/privacy_policy/$xhr,1p
+@@||geolocation.onetrust.com/cookieconsentpub/$script
+@@||lightningmaps.org^*/cookieconsent.$script,stylesheet
