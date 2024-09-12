@@ -267,16 +267,10 @@
 accuweather.com##.privacy-policy-banner
 anker.com##div[class^="FeatureBar"]
 anycodes.com##.privacy_policy_pop
-apnews.com,businesswire.com,cbssports.com,msn.com,nba.com,ncaa.com,nhl.com,reuters.com,spotify.com,tidal.com###onetrust-consent-sdk
-appfairness.org###CybotCookiebotDialogBodyUnderlay
-askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com###js-gdpr-consent-banner, .js-consent-banner
-autoevolution.com,softpedia.com###cookienotif
 avsforum.com###ukCookiePopup, #vspopup-all-overlays
 bbc.co.uk,bbc.com###bbccookies, #cookiePrompt
 bbcstudios.com,cvce.eu,hearst.co.uk#@#.cookie-policy
 blog.google##.cookie-show
-blog.google,marketingplatform.google.com###cookieBar
-blog.youtube###cookieBar.cookie-show
 blogtalkradio.com###cookies-alert-header
 bloomberglaw.com##[class*="CookieNotice_cookiesBar"]
 bloomberglaw.com,codex.online,evry.com,neweracap.com,threadreaderapp.com##.cookies
@@ -290,7 +284,6 @@ complex.com##.video-bar-on-scroll--showing-cookie-notice
 complex.com##.video-embed-floated--showing-cookie-notice.vidible-embed:style(position: static !important;)
 dailymotion.com##+js(set-cookie, cookie_policy_closed, 1, , reload, 1)
 datacenterdynamics.com##.cc-banner.cc-window
-dd-wrt.com,raspberrypi.org##.cookieinfo
 dell.com###consent-button-div
 developers.google.com##.devsite-notification-eu-cookie, .devsite-snackbar-snack[type="cookie-notification"]
 dfiles.eu##.cookie_popup
@@ -307,28 +300,21 @@ flightglobal.com,flightstats.com###rbiCookiePolicy_pushDownBoxWrapper
 foreignpolicy.com###paywall_bg, .cookie_message, .js-takeover, .paywall_counter, .preloaded_lightbox
 ft.com###assanka_mockingbird_overlay, #barrier-dialogue, .WSODHoverPopupContainer, .barrier__container, .n-messaging-slot--cookieConsentB, .o-cookie-message, .progress-indicator__container
 gallup.com###gel-cookie-banner, [title="Gallup Cookie Banner"]
-game8.co###js-page-to-top, .js-cookies-eu.cookies-eu
-geeksforgeeks.org##.cookie-consent
 gettr.com##.jss86 .MuiGrid-root.MuiGrid-container:has(.MuiTypography-root):upward(2)
 gettyimages.fi###euCookieDialog
-gitlab.com###CybotCookiebotDialog
 globenewswire.com##.cookie-disclosure
 glosbe.com#@#.cookie-consent
 godbolt.org##+js(set-cookie, privacy_status, 1)
 gravatar.com##.a8c-cookie-banner
-securityaffairs.com###cookie-law-info-bar
 head-fi.org##.js-notices.notices--bottom_fixer.notices
 headphonecheck.com###BorlabsCookieBox
-howardforums.com##.cc-window
 hwinfo.com##.cookie-agree-with-use
 ibtimes.*###IBTCookiePolicy
-ifre.com##.welcome-cookie
 ikea.com##.hnf-banner
 itv.com###itv-glob-cookie-policy, .js-site-alert.site__alert, .wrapp-cookie
 itv.com##.syrenis-cookie-widget
 itv.com##body:style(overflow: auto !important;)
 lenovo.com##.cookie-remind-warpper
-macys.com###__tealiumGDPRecModal
 malwarebytes.com###cookie-consent-alert, #lightbox-overlay, #lightbox-popup
 masters.com##.privacy-notice
 matcha-jp.com##.cookie-info
@@ -341,7 +327,6 @@ myspace.com###termsOfService, .eucookie
 nascar.com##.preloaded_lightbox
 nationalreview.com##.bcpNotificationBar
 nature.com##.c-site-messages, .container-type-cookies-
-netflix.com###cookie-disclosure
 nokia.com##.nokia_cookie-wrapper
 notebookcheck.net###nbcCookieChoice
 nvidia.com###cookiePolicy-layer
@@ -358,11 +343,9 @@ rappler.com###cookie-popup-rappler, #emailPopupDiv
 razer.com##tos-razer-cookies
 realclearpolitics.com##.cc-stop-overlay, .cc-window
 redhat.com##.redhat-cookie-banner
-retropie.org.uk##.cc_banner-wrapper
 reuters.com##html[style*="overflow: hidden;"]:style(overflow: auto !important;)
 reviewjournal.com##.accept-cookie
 revolver.news##.notice
-rt.com##.cookies__banner
 samsung.com##.cm-cookie-geo, .f_backtotop
 samsung.com#@#.cookie-warning
 siliconrepublic.com###cookie-law > div
@@ -392,9 +375,33 @@ yubico.com##.cookie-pop
 
 ! Network rules
 /borlabs-cookie$script
+/consentcdneu.b-cdn.net/
+/consenteu.b-cdn.net^
 /cookie-law-info-public.js$script
 /wrapperMessagingWithoutDetection.js$script
-||cdn-cookieyes.com
-||cdn-iubenda.b-cdn.net
-||usercentrics.eu
+||2badvice-cdn.azureedge.net^
+||app.termly.io^
+||axeptio.imgix.net^
+||cdn-cookieyes.com^
+||cdn-iubenda.b-cdn.net^
+||cdn.priv.center^
+||choice-apis*.amazonaws.com^
+||cmp*.foundryco.com^
+||cmp-teamblue.services^
+||cmp.inmobi.com^
+||cmp.quantcast.com^
+||cmp.sirdata.com^
+||cmp.teamblue.services^
+||cookiebot.com*.edgekey.net^
+||cookiebot.com.edgekey.net^
+||evidon.com.edgekey.net^
 ||gdpr-tcfv2.sp-prod.net^
+||inmobi-choice.io^
+||ketchcdn.com^
+||ketchjs.com^
+||privacycollector*.amazonaws.com^
+||service-cmp.com^
+||sp-prod.net^
+||starling-sg.byteoversea.com.edgesuite.net^
+||transcend-cdn.com^
+||usercentrics.eu^
