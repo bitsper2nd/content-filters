@@ -294,6 +294,7 @@ dw.com##.cmpwrapper
 ebay.*,yahoodatabreachsettlement.com###gdpr-banner
 espn.*##.active.js-feed-item-mask, .active.news-feed-item > .story_progress > .bar, .alert--fixed.alert--center.alert, .bg-opaque.mod-outbrain.mod-no-border, .cookie-overlay, .js-bloomed.favorites-mgmt.lightbox, .promo-banner-container
 europeantour.com###modalCookieContainer
+fanatical.com##.biscuit-auth-collapsible-wrapper
 fifa.com##.fi-back-to-top, .fi-cookie-banner
 fiverr.com###react-cookie-approval
 flightglobal.com,flightstats.com###rbiCookiePolicy_pushDownBoxWrapper
@@ -302,6 +303,7 @@ ft.com###assanka_mockingbird_overlay, #barrier-dialogue, .WSODHoverPopupContaine
 gallup.com###gel-cookie-banner, [title="Gallup Cookie Banner"]
 gettr.com##.jss86 .MuiGrid-root.MuiGrid-container:has(.MuiTypography-root):upward(2)
 gettyimages.fi###euCookieDialog
+github.com###wcpCookiePreferenceCtrl
 globenewswire.com##.cookie-disclosure
 glosbe.com#@#.cookie-consent
 godbolt.org##+js(set-cookie, privacy_status, 1)
