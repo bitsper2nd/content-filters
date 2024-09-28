@@ -1,0 +1,78 @@
+! Title: 🛑 Stop anti-adblock
+! Description: Remove anti-adblock Warnings.
+! Homepage: https://github.com/bitsper2nd/content-filters
+! Expires: 3 Days
+
+! Network filters
+://cmpworker.*/?pid=$script,~third-party
+@@||static.adsafeprotected.com/skeleton.gif?
+@@||static.adsafeprotected.com/skeleton.js?
+||adclixx.net^$script,third-party,redirect=prevent-bab2,important
+||adnetasia.com^$script,third-party,redirect=prevent-bab2,important
+||ads-api.twitter.com^$xmlhttprequest,redirect=nooptext,domain=~twitter.com
+||ads-twitter.com/uwt.js$xmlhttprequest,third-party,redirect=nooptext
+||adtrackers.net^$script,third-party,redirect=prevent-bab2,important
+||bannertrack.net^$script,third-party,redirect=prevent-bab2,important
+||coinzillatag.com^$script,redirect=noopjs
+||doubleclick.net^$xmlhttprequest,redirect=nooptext,domain=~d3ward.github.io
+||googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs
+||media.net/dmedianet.js$redirect=noopjs
+||nessainy.net/favicon.ico$image,redirect=32x32-transparent.png
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=~amachamusic.chagasi.com|~leechpremium.net|~zipextractor.app
+||pagead2.googlesyndication.com/|$xmlhttprequest,redirect=noopjs
+/adframe.js$subdocument,redirect-rule=noopframe
+/ads-prebid.js$script,redirect-rule=prebid-ads
+/prebid-add.js$script,redirect-rule=prebid-ads
+/prebid-ads.js$script,redirect-rule=prebid-ads,domain=~exey.io
+||google-analytics.com/analytics.js$redirect-rule=google-analytics
+||googletagmanager.com/gtag/js$script,xmlhttprequest,redirect-rule=googletagmanager-gtm,domain=~myshows.me|~xeroshoes.com
+
+! cosmetic filters
+###go-to-top + div[id][class*=" "]
+###st-ami + div[id][class*=" "]
+#@##adContext
+#@##AdLayer1
+#@##ad_300
+#@##ad_728
+#@##ad_area
+#@##ad_big
+#@##ad_box
+#@##ad_footer
+#@##ad_img
+#@##ad_slot
+#@##ad_space
+#@##adframe:not(frameset)
+#@##adheader
+#@##ads-1
+#@##ads-banner
+#@##ads-footer
+#@##adspace
+#@##adsquare
+#@##banner468
+#@##banner728x90
+#@##downloadAd
+#@##topBannerAd
+#@##topbannerad
+#@##weatherad
+#@#.Ad-Container
+#@#.ad-area
+#@#.ad-content
+#@#.ad-link
+#@#.ad-placeholder
+#@#.ad-slot
+#@#.ad-space
+#@#.ad-unit
+#@#.ad-zone
+#@#.ad_unit
+#@#.ads_banner
+#@#.ads_container
+#@#.sidebar-ad
+#@#.stickyads
+#@#[data-ad-module]
+#@#[data-ad-width]
+#@#[data-adblockkey]
+#@#[data-advadstrackid]
+#@#[data-ad-manager-id]
+
+#%#//scriptlet('abort-current-inline-script', 'document.createElement', '/admiral|String\.fromCharCode\(97,( )*?100,( )*?109,( )*?105,( )*?114,( )*?97,( )*?108\)|a%64%6d%69%72%61%6c/')
+#%#//scriptlet("set-constant", "admiral", "noopFunc")
