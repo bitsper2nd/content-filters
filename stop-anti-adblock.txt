@@ -18,14 +18,12 @@
 ||googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs
 ||media.net/dmedianet.js$redirect=noopjs
 ||nessainy.net/favicon.ico$image,redirect=32x32-transparent.png
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=~amachamusic.chagasi.com|~leechpremium.net|~zipextractor.app
 ||pagead2.googlesyndication.com/|$xmlhttprequest,redirect=noopjs
 /adframe.js$subdocument,redirect-rule=noopframe
 /ads-prebid.js$script,redirect-rule=prebid-ads
 /prebid-add.js$script,redirect-rule=prebid-ads
 /prebid-ads.js$script,redirect-rule=prebid-ads,domain=~exey.io
 ||google-analytics.com/analytics.js$redirect-rule=google-analytics
-||googletagmanager.com/gtag/js$script,xmlhttprequest,redirect-rule=googletagmanager-gtm,domain=~myshows.me|~xeroshoes.com
 
 ! cosmetic filters
 ###go-to-top + div[id][class*=" "]
@@ -76,3 +74,4 @@
 
 #%#//scriptlet('abort-current-inline-script', 'document.createElement', '/admiral|String\.fromCharCode\(97,( )*?100,( )*?109,( )*?105,( )*?114,( )*?97,( )*?108\)|a%64%6d%69%72%61%6c/')
 #%#//scriptlet("set-constant", "admiral", "noopFunc")
+animenewsnetwork.com###maincontent > div:last-child
