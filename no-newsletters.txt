@@ -1,0 +1,355 @@
+! Title: 📪 No Newsletters
+! Description: Remove newsletter popups and modals.
+! Homepage: https://github.com/bitsper2nd/content-filters
+! Expires: 3 Days
+
+! Global Cosmectic rules
+##.post-end-cta-full
+##article > [class*="_subscribeDialog_"]
+##article > [class*="_background_"]
+##.intro-popup
+###main:style(visibility: visible !important;)
+##html.modal-in, html.show-intro-popup:style(overflow: auto !important;)
+##.has-intro-popup.show-intro-popup body:style(height: auto !important; width: auto !important; overflow: auto !important;)
+##.post-end-cta-full
+##.google-news-button
+##.newsletter-simple
+##.verbum-simple-subscribe-modal
+##.home-subscribe
+##a[href^="https://twitter.com/intent/follow?"]
+##a[href^="https://x.com/intent/follow?"]
+##.google-news-block
+##.jetpack_subscription_widget
+##.Sailthru_Subscribe
+##.wp-block-xwp-newsletter-subscription
+##.w-newsletter-in_article
+##.smartmag-widget-newsletter
+##.newsletter-slice
+##.newsletter-inbodyContent-slice
+##.skinny-signup
+##.mailpoet_form_popup_overlay
+##.mailpoet_form
+##.sqs-popup-overlay
+##.followit--follow-form-container
+##.widget_blog_subscription
+###mc_embed_signup
+
+! Local Cosmetic rules
+500ish.com,artplusmarketing.com,atrium.co,backchannel.com,backstage.1blocker.com,badootech.badoo.com,bitcointechtalk.com,blazingdb.com,blog.angularindepth.com,blog.bitwarden.com,blog.coinbase.com,blog.confiant.com,blog.devcolor.org,blog.discordapp.com,blog.growthhackers.com,blog.hiri.com,blog.ltse.com,blog.statebox.org,blog.twitch.tv,blog.waffle.io,bluerockpublicradio.com,bolt.io,boomsupersonic.com,bradfieldcs.com,brightthemag.com,broadcast.listennotes.com,checkio.org,citizen428.net,coach.me,codeburst.io,dave-bailey.com,doist.com,doit-intl.com,dotandline.net,doublepulsar.com,electricliterature.com,elidourado.com,esciencecenter.nl,fossa.io,freecodecamp.org,fritz.ai,getadblock.com,greylock.com,helium.com,howwegettonext.com,iheart.com,injusticetoday.com,insightdatascience.com,iota.org,itnext.io,itsyourturnblog.com,jupyter.org,keepingstock.net,kiwi.com,learngoprogramming.com,learningbyshipping.com,ledwards.com,legalist.com,logrocket.com,mapbox.com,medium.com,melmagazine.com,mondaynote.com,newco.co,news.smugmug.com,nyulocal.com,ofdollarsanddata.com,okmeter.io,open.nytimes.com,postlight.com,prototypr.io,rainway.io,sagefy.org,signalvnoise.com,slack.engineering,slackhq.com,springboard.com,standardnotes.org,startupsventurecapital.com,stoplight.io,tech.buzzfeed.com,theabacus.io,theawl.com,thebigroundtable.com,thebillfold.com,thebolditalic.com,thecontrol.co,theringer.com,thinkprogress.org,thriveglobal.com,timeline.com,towardsdatascience.com,udacity.com,unpatent.co,usejournal.com,uxdesign.cc,uxplanet.org,warisboring.com,wearemel.com,whatahowler.com,x.company##.js-directEmailSignup
+abcnews.go.com###widget-subscribe-3
+aclu.org##.pane-aclu-blog-news-signup.panel-pane
+adlice.com##.wp_subscribe.widget
+adweek.com##.container-subscribe, .subscribewidget
+aeon.co##.newsletter-signup, .shortcode-inline-newsletter, [class*="NewsletterPopup__NewsletterPopupWrapper-"], [class*="VideoNewsletterSignUpCard__Wrapper-"], [class*="videos__SocialShareBar-"]
+aerolab.co##.bottom-subscription
+aim.org##.tve-leads-shortcode:upward(3)
+airforcetimes.com##.newsletter.signup.container
+airforcetimes.com,armytimes.com,c4isrnet.com,federaltimes.com,fifthdomain.com,marinecorpstimes.com,militarytimes.com,navytimes.com##.newsletter.signup.container
+airlive.net##.widget_mailerlite_widget.widget
+ajc.com##.newsletter-tease
+al-monitor.com##.subscribe-block
+aljazeera.com##.NewsLetterForMobile
+alphr.com,evo.co.uk,theweek.co.uk###block-dennis-newsletter-newsletter-block
+americamagazine.org###block-simplenewssubscription-3, .signUpNewsLetterHomeWrapper
+americanmilitarynews.com##.nm-mc-form
+androidauthority.com###aa-subscribe-widget-wrap, .widget_home_newsletter
+aol.co.uk,aol.com###mod-newsletter-toaster-1, .inline-newsletter-module.inline-breaking-news-newsletter, .newsletter-signup-form
+archive.vanityfair.com##.shared_footer_cta_basic, .shared_footer_cta_primary, .shared_substory_cta
+arlnow.com##.newsletter-box
+artnet.com##.theme-newsletter-signup
+asia.nikkei.com,dailycaller.com,formlabs.com,idownloadblog.com,jamesbeard.org,mashable.com,thetrace.org###newsletter-signup
+asiatimes.com,bookriot.com,current.org,electronicdesign.com,humanevents.com,intouchweekly.com,jewishreviewofbooks.com,nightwatch.io,nydailynews.com,tabletmag.com,tastecooking.com,techradar.com,theonion.com,wkyc.com##.newsletter-signup
+astronomy.com##.newsletterBox, body > div:nth-of-type(1)
+athletic.net##.sign-up-box
+atlassian.com##.newsletter
+autoblog.com###rr-newsletter-signup
+avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###newsletterPromoModule, a[href="/newsletter"]:upward(1)
+avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_newsletter-btn--subscribe, .js_newsletter-form-inline, .js_subscribe
+axios.com##.StoryNewsletterPromo__root--34CRf, .sidebar__newsletter, .topic-newsletter, .SubscriptionHeader__newsletter--p8o4P.Header__header--3d1x-, [class*="RightRailCTA_right-rail-cta"], [class*="StoryPageCTA_story-page-cta"], [class^="StreamCap__promoContainer"], [data-testid="form-wrapper--dynamic--desktop"]
+babylonbee.com##.mb-4.row:has(#mobileNewsletterInput)
+ballotpedia.org###email-signup-bar
+barstoolsports.com##.newsletterSignup
+bbc.co.uk,bbc.com##.news-app-promo, .ws-c-news-daily
+bellingcat.com##.footer__mailing, .mailingList
+bhg.com,coastalliving.com,cookinglight.com,ew.com,foodandwine.com,fortune.com,health.com,hellogiggles.com,instyle.com,myrecipes.com,people.com,peopleenespanol.com,realsimple.com,southernliving.com,time.com,travelandleisure.com##.menu-subscribe
+bleepingcomputer.com##.bc_news_letter_sidebar
+blog.feedspot.com###custom_html-3, #custom_html-3_clone, #text-836, #text-836_clone, [id*="newsletterform"]
+blog.zoom.us###subscribe-ask
+blogs.discovermagazine.com##body > div:nth-of-type(3)
+bloomberg.com##.inline-newsletter, .inline-newsletter-top, .newsletter-module
+bloombergquint.com##.bloombergquint-newoptinbox-background, .sticky-subscription-active, .subscribe-newsletter--large, .subscription-combo-box-module__subscriptionCombo__30SP7, .subscription-combo-box-module__subscriptionCombo__3l12r, .subscription__combo__mobile-wrapper
+boredpanda.com##.new-variation-3.newsletter-variation
+bostonglobe.com###subscribe-btn, .bg-header__subscribe, .inline-newsletter, .newsletter, .signup-growler, .subscription-banner__link
+bostonmagazine.com##.header-subscribe, .newsletter
+bostonreview.net###block-br-hhog-module-br-hhog-newsletter-general, .featurednewsletter
+breitbart.com###EmailOptinM, #content_0_rightrail_0_ctl12_sectionSubscribe, #newsletter-widget
+businessinsider.com,insider.com,thisisinsider.com##.editorial-sidebar, .inline-newsletter-signup, .right-subscribe
+businessinsider.com.au###mc-signup-in-post, #mc_signup
+businessinsider.in###nlFormSlide
+businesstimes.com.sg,thepostmillennial.com##.newsletter-wrapper
+buzzfeed.com###mod-newsletter-signup-1, #mod-newsletter-signup-2
+buzzfeednews.com##.bfp-newsletter-signup-container, .newsblock-newsletter-signup
+cato.org##.blog-email-tease.tease-special
+cbc.ca##.newsletterWidget
+cbslocal.com##.widget_cbs_newsletter_widget
+cbsnews.com###component-newsletter-signup-widget-breakingnews-frontdoor, #component-newsletter-widget-breakingnews, .newsletter_signup
+cbssports.com##.Newsletter-container
+channelnewsasia.com##.newsletter-cta
+cnbc.com###optIn-embedded, #optIn-right-rail, .WildcardEmbed-wrapper
+cnbc.com##.Footer-newsletter:upward(1)
+cnet.com##.holidayPromo, .newsletter-subscribe-form
+cnn.com###rs-newletter-mod, .cd--tool__mailchimp-subscribe, .cnn-politics-app-promo-card, .rs-newsletter-body
+consumerreports.org##.newsletter-sign-up
+css-tricks.com##.footer-newsletter
+cybernews.com##.dialog-lightbox-message.dialog-message
+dailywire.com,liquid-iv.com##.ub-emb-container
+deadline.com##.widget-newsletter
+dictionary.com,thesaurus.com##.e14q43hi0.css-v01kzv, .otd-sidebar > .otd-widget__form, .sotd-item__form
+dictionary.com,thesaurus.com##[data-email-subscription="true"]:upward(2)
+digg.com##.cta-stories, .cta-videos, .main-navigation__secondary-subscribe
+digitalocean.com###newsletter-signup-dialog
+digitalspy.com##.include-subscribe-link
+digitaltrends.com##.h-register-newsletter
+discovermagazine.com##.newsletterBox
+disney.com##.disney-id-box
+disqus.com,punchdrink.com###email-signup
+droid-life.com##.callout-newsletter-sign-up, .l--flat-list.site__priNav--file-callouts
+duckduckgo.com##.badge-link--newsletter
+dummies.com##.dummies-newsletter
+eater.com##.c-toaster-stuck.c-toaster-active.c-toaster
+economist.com##.end-of-article-unit__container, .inhouse__subscription-ribbon, .newsletter-form, .newsletter-signup, .subscription-ribbon
+eff.org##.pane-effector-signup
+engadget.com###engadget-article-footer, #engadget-context-nav
+espn.*##.espnDaily.sub-module, .espnDaily--inline
+etonline.com##.block-et-newsletter.block
+etsy.com##.not-signed-in.subscribe-form:upward(1)
+euronews.com##.o-site-footer__newsletter
+ew.com##.newsletter-callout, .newsletter-signup, .subscribe-callout
+express.co.uk##.newsletter-pure
+fakespot.com##.subscribe-container
+fastcompany.com##.newsletter-box, .newsletter-signup, .topnav-newsletter-container
+filmschoolrejects.com##cloudflare-app
+fivethirtyeight.com##.newsletter, .newsletter-modal
+flickr.com##.signup-footer
+foodnetwork.com##.newsletter
+foreignaffairs.com##.article-newsletter-signup--container
+fortune.com##.newsletter-callout, .subscribe-callout, .with-bottom-border.plea-block, [class*="footerSubscribe__wrapper"]
+foxnews.com##.item-newsletter, .item-subscribe.item, .promo-newsletter, p a[href*="foxnews.com/newsletters"]
+france24.com##.o-self-promo--nl.o-self-promo
+ft.com##.article__content-sign-up, .js-instant-alerts-promo.o-message--instant-alerts-promo.o-message--notice.o-message, .n-alert-banner--marketing-anon-subscribe, .n-content-layout, .n-messaging-slot, .subscription-prompt
+ft.com##experimental:has-text(/newsletter/)
+futurism.com##.subscribe-form.center, .yksqV.NewsletterSignUpWidget__StyledWrapper-sc-18sck4u-0
+gamesindustry.biz,scientificamerican.com,timesofisrael.com,usgamer.net##.newsletter-promo
+gamespot.com##.newsletter-subscribe-box
+geekwire.com###category-heading-subscribe, #newsletter-subscribe-sidebar
+glassdoor.com###BlogFloatingSubscribeButton
+gq.com##.cm-header, .gq-navigation__newsletter-button, .nav-item-subscribe.nav-item, .subscribe-button
+grammy.com###block-mailchimp-signup-grammy-newsletter, .injected-newsletter-ad-wrapper
+haaretz.com##.newsletter, .newsletter--ruler, [id*="newsletterRegForm"]
+hacks.mozilla.org###newsletterForm
+hackwarenews.com###sc-email-widget-container
+hbo.com###newsletterPopup
+heavy.com##.heavy-mailing-list
+history.com###sticky-email-updates, .newsletter-signup
+hollywoodreporter.com##.email-subscribe, .newsletter
+homedepot.com##.widgetEmailPrintTable
+howtogeek.com##.footer-email
+huffingtonpost.*,huffpost.com###inline-newsletter_placeholder, .inline-newsletter, .inline-newsletter__image, .inline-newsletter__inner, .js-entry-inline-subscription-module, .subscribe-footer
+ibtimes.*###block-ibtimes-newsletters-morning-insights, .daily-newsletter
+iflscience.com##.newsletter-widget.widget
+imore.com##.block-newsletter
+inc.com##[class*="NewsLetterBar__NewsLetterBar__"]
+independent.co.uk###newsletter-component, .email-signpost, .newsletter-component
+indiegogo.com##.ng-scope.emailCapture
+indiehackers.com##.article-subscribe
+indiewire.com##.u-padding-20.u-box-shadow-b-blue.u-flex-direction-column.u-flex-align-items-center.u-flex.u-border-dark-blue.u-position-relative:has-text(/Newsletter/)
+infowars.com###inline-connect, #newsletter-side-widget
+infowars.com##input[placeholder="Email"]:upward(1)
+inquirer.com##.global-newsletter-sign-up, .subscribe-widget
+inverse.com##.article-slidein-newsletter, .newsletter-accordion, .newsletter-inline, .promos-newsletter, .promos-newsletter-page
+investopedia.com##.newsletter
+irishtimes.com###newsdigest-widget
+itpro.co.uk##.polaris__newsletter
+jpost.com###subscriberForm, .newsletter-signup-wrap, .sign-up-wrap
+laptopmag.com###newsletter-subscribe-banner, .newsletter-signup.box
+latimes.com,pacificsandiego.com,sandiegouniontribune.com##.NewsletterModule, .newsletter-module.module, newsletter-campaign
+macworld.com###footer-subscribe
+makeuseof.com##.single-post-newsletter
+malwarebytes.com###newsletter-signup
+marketbeat.com###cphPrimaryContent_pnlRegister:upward(1)
+marketwatch.com###column-alerts, #signUpForm
+mediaite.com###newsletter > .heading, section.c-promo-slice.o-slice
+mediapost.com###subscribe_form
+mic.com##.newsletter-signup, .newsletter-signup-mobile
+microsoft.com###email-newsletter-dialog
+mit.edu##.subscribe-button
+mixpanel.com###post_subscribe_wrapper
+money.com##.homepage-newsletter, .newsletter-callout
+morningconsult.com##.single-post__content__subscribe
+motherjones.com##.incontent-promo, .newsletter-signup
+moviemaker.com##.mvp-nav-newsletter
+msn.com###MSN_Today_Newsletter, [href*="/newsletters"]
+msnbc.com##.msnbcDaily__footer, .newsletter-signup__container
+musicbusinessworldwide.com##.mb-newsletter
+nationalgeographic.com##.gf2_newsletter-form
+nationalgeographic.org##.fk-newsletter
+nationalgeographiclodges.com##.ignUpNewsletter
+nature.com##.c-site-messages, .nature-briefing
+nbcnews.com##.newsletter-signup__container, .nl-signup-inline
+nbcsports.com###footer-newsletter-link
+nerdist.com###sub-footer-banner-wrapper-300
+newrepublic.com##.email-container, .inserted-housead, .popupTemplate__newsletter, .popupTemplateBottom, .subscribe, .subscribe-sidebar, .subscription-prompts
+news.harvard.edu##.daily-gazette
+news.yahoo.com##p:has-text(/newsletter, and follow/)
+newsmax.com###nmSignUpContainer
+newstatesman.com###subscribeForm, .in-article-newsletter-form, .primary-offer-box
+newsweek.com###header_subscribe, .article--newsletter--wrapper, .msub, .newsletter-signup, .subscription
+newyorker.com##.ArticlePageSidebar__railItem___1K-hs, .Failsafe__header___21L-f, .MainHeader__fullSubscribe___dolgp, .MainHeader__subscribeLink___3TGEc, .NewsletterSubscribe__newsletterComponent___1ZI2a, .content-well-newsletter, .newsletter-subscribe-form
+nikkei.com##.mail-magazine-article
+nist.gov##.pane--nist-subscribe-form-pane
+npr.org##.newsletter-stickybar
+nybooks.com##.newsletter_signup
+nypost.com###commerce-disclosure, .inline-module--newsletter
+nytimes.com###Newsletter-embed-NYT-Now, #Science-Newsletter-promo, #THEurope-newsletter-module, #THasia-newsletter-module, #australia-today-email-signup, #breaking-news-email-promo, #cooking-email-signup, #d-promo-realestate, #evening-briefing-email-promo, #inline-recipe-newsletter-signup, #living-newsletter-promo, #new-york-today-email-promo, #news-tips-article-promo, #newsletter-module, #newsletter-promo, #opinion-newsletter-promo, #push-signup, #signup-favor, #sports-email-promo, #styln-signup, #subscriptionCTA, .eln-email-signup, .email-signup, .nytc---footernewsletterform---newsletterContainer, .recipe-newsletter-signup, .css-17dprlf.medium, [aria-labelledby="newsletter-section-header"], [data-test-id="RecommendedNewsletter"]
+nytimes.com##.css-tegfbt:has-text(/Get it sent to your inbox/)
+nytimes.com##.s-cvb-subscribe:upward(1)
+nytimes.com##[data-testid="interest-action-button"][name="Subscribe to newsletter"][aria-label="Subscribe to newsletter"]:upward(6)
+nytimes.com##aside:has([id^="newsletter-iframe-container"])
+nytimes.com##aside:has-text(/Sign Up/)
+nytimes.com##button[name="select interest"]:upward(3)
+nytimes.com##div > p:has([href^="https://www.nytimes.com/newsletters/"])
+observer.com##.entry-content > p :has-text(/Subscribe to/)
+pbs.org##.sidebar__subscribe
+pcgamer.com,tomsguide.com,tomshardware.*,toptenreviews.com##.newsletter-signup.box
+pcmag.com###subscribe-pcmag, #subscribe_btn, .newsletter-widget
+pcworld.com###footer-subscribe
+penguinrandomhouse.com###newsletter-wrap-desktop
+people.com##.footer-newsletter, .newsletter-callout, .newsletter-signup, .subscribe-callout
+petmd.com###nlSliderSignup
+piriform.com##.band--newsletter, .newsletter-signup
+pitchfork.com##.newsletter
+politico.com###widgetAlertMagazine, #widgetNewsletter, #widgetPoliticoInPrint, .get-playbook-pm.content-group, .get-the-national-security-daily-newsletter, .newsletter-sign-up-do-not-delete, .sign-up, div.newsletter-header__item:nth-of-type(2), [class*="-sign-up-right-rail"], [class*="sign-up-"]
+popculture.com###newsletterModal
+pragmaticengineer.com###newsletter-second
+projectveritas.com###cmApp_signupContainer
+propublica.org##.newsletter
+qz.com###obsessions-email-container, ._86eee.context-default.e1535, .context-promotion,  .quartz.context-default, .EmailSignup__container__cDTsj
+radiotimes.com##.widget-newsletter-sign-up
+rawstory.com##.cp-clear.cp-info-bar-wrapper, .footer-email, .sidebar-email-signup-container, [id*="lightbox-inline-form-"]
+rd.com###subscribe-to-magazine-sticky, .newsletter-signup-content-widget
+reddit.com##.newsletter-container
+redhat.com##.block--cta, .show.subscribe-sidebar
+reuters.com###hp-newsletters, .NewsletterSignUp_container, [class*="NewsletterCard__container"], [class*="NewsletterSignup-container-"], [class*="newsletter-card__container"], [class*="registration-prompt__container"]
+rollingstone.com##.c-post-actions__newsletter, .l-blog__item:nth-of-type(5), .module-newsletter, .pmc-image-widget-container
+scmp.com###scmp-newsletter-subscribe-form, .newsletter, .node-newsletter-subscribe, .scmp-inline-newsletter-subscription, .subscribe-container, .subscription
+screenrant.com##.w-newsletter-signup
+seattletimes.com###userMessagingInset, #userMessagingPostscript, .NewsletterSignupSplash
+seekingalpha.com###add-ticker-to-portfolio-unit
+si.com##.newsletter-callout, .nl-container, .subscribe-callout
+simplyrecipes.com##.email-subscribe
+slate.com##.newsletter-signup-component
+slickdeals.net##.newsletter
+smashingmagazine.com##.c-promo-box--newsletter
+snopes.com###smg-zone-main-after-feature, .email-signup-box
+sourceforge.net###newsletter-floating
+spectator.co.uk,spectator.us##.email-newsletter, .spev-show-not-active-subscriber, .subscribe-ribbon__wrapper
+sports.yahoo.com###Col1-2-Interstitial-Proxy, [id*="-NewsletterSubscription"]
+statesman.com##.newsletter-tease
+stereogum.com##.sm-widget-sailthru
+substack.com##.subheader-wrapper, .subscribe-footer, div.subscribe-widget
+suntimes.com##.newsletter-box
+techmeme.com###nlsb
+techwalla.com###email-capture
+tesla.com##.tesla-newsletter--sticky
+texasmonthly.com##.article-newsletter, .article-subscription, .footer__newsletter
+the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie###newsletter_holder, .newsletter_holder
+theatlantic.com###series-newsletter-signup, .c-popular__container--newsletter, .c-subscription, .module-newsletter-signup, .newsletters, .sign-up, .subscribe, [class*="HomepageMiddle_newsletters"], [class*="LostInventoryMessage_root"]
+theblaze.com##[id*="Newsletter_Post"], [id^="sWidget_-_Newsletter"]
+thedailybeast.com##.CheatNewsletter, .InlineNewsletter
+thedrive.com##.newsletter-image, .newsletter-signup, .page-header-message[href="/newsletter"]
+thefix.com###header-subscribe
+thegazette.com###subscribe-CTA
+theguardian.com###first-thing-email-newsletter, #footer__email-form, .aside-slot-container, .email-subscription-promo4, .footer__email-container
+thehackernews.com###email-outer, .sub-button
+thehill.com###block-thehill-blocks-footer-signup
+theintercept.com##.Homepage-HomepageAdList-HomepageAdListMember-newsletter, .Newsletter, .NewsletterEmbed-container, .Newsletter-wrapper, .Newsletter-shortcode
+themarysue.com###newsletter-promo
+thenation.com##.email-signup-module
+thenextweb.com##.newsletter
+thepoliticalinsider.com##.inarticle.email-signup
+thepostmillennial.com##.newsletter.banner.partial, .subscription.partial
+theregister.co.uk###article_newsletter_signup, #story_rhs_ml_signup, .newsletter_and_social, .newsletter_link
+thestreet.com###subscribe_premium
+thesunmagazine.org##.cta, .cta-free-trial, .cta-newsletter, .header-nav-subscribe
+theverge.com###subForm
+theweek.com###art-subscribe-unit-outer, #art-subscribe-unit-outer-graphic, .article-risk-free-offer, .col300_signup, .signup-nl-right-rail-top, .signup-nl-right-recirc-middle, .subscribe-module, .subscribe-unit-header
+thewirecutter.com##.newsletter, .newsletter-container, ._610037e6
+thewirecutter.com##div#__next > div:has-text(/Sign up for/)
+thewrap.com##.newsletter-btn, .newsletter-popup, .subscribe-btn.signup.btn
+threatpost.com##.c-newsletter-section, .c-newsletter-widget
+thrillist.com##.inline-signup, [class*="EmailAcquisitonstyles__EmailAcquisitionContainer"]
+time.com##.homepage-newsletter, .media.subscribe-callout, .newsletter, .newsletter-callout, .newsletter-signup
+timeout.com##.newsletter_sub__inner
+timesofisrael.com##.newsletter-article.newsletter, .nlsignup
+tmz.com##.newsletter-content, .quick-subscribe-form
+today.com##.entry-bottom, .newsletter-l-wrapper, .tabletNewsletter___Av6eE
+triplebyte.com##.fixed.blog-post__subscription__header
+trucks.com###custom_html-42
+tvline.com##.newsletter-link
+unherd.com##.code-block
+urbandaddy.com##.email-signup
+usmagazine.com##.header-subscribe
+usnews.com##[class*="KioskFirstClass__Container-sc-"], [class*="KioskEconomy__Container"]
+vanityfair.com##.component-newsletter-cta, .newsletter-subscribe-form, .subscription-form
+variety.com###subscribe-link-section, .c-widget--newsletter.c-widget, .hp-panel__newsletter-signup, .newsletter
+venturebeat.com##[id^="lightbox-"]
+vera.org###PopupEmailSignup
+vice.com##.interstitial, .newsletter-promo, .newsletter-wrapper, .user-newsletter-signup
+viewfromthewing.com###ba-flybox, .subscribe
+vogue.com##[class*="ContentFooterNewsletterContentWrapper-"]
+vox.com##p:has-text(/Sign up for/)
+wallethacks.com###text-32
+wamu.org##.newsletter-module
+washingtonexaminer.com###home-newsletter-signup, #newsletter-signup-policy, #newsLetter-signup-box, #newsletter_sign_up_form, .newsletter, .subscribe-promo, [data-dy-embedded-object="true"] .wex-spon-con
+washingtonpost.com###interactive-newsletter-embed, #nav-subscribe, #signup-banner, #signup-box-instream, #signup-box-rr, .daily202-newsletter, .newsletter, .newsletter-inline-unit, .newsletter-unit.signup-box-rr, .pb-f-page-subscription-promo, .pb-subscribe, .pb-subscribe-promo, .right-rail-subscription, .signup-module, .subscribe, .subscribe-links, [data-qa="newsletter"]
+washingtonpost.com##.hide-for-print:has([alt*="Newsletter"])
+washingtonpost.com##.hide-for-print:has([name="signup-email"])
+washingtonpost.com##.include-dividers-tables.line-bottom.small-bottom-separator.mx-dsktp-order.ma-auto.hpgrid-max-width.hpgrid.chain:has([id="interactive-newsletter-embed"])
+washingtonpost.com##article > div[class^="hide-for-print"]:has-text(/Subscribe/)
+washingtonpost.com##button:has-text(/Subscribe/)
+webmd.com###blog-post-nl
+windowscentral.com##.block-newsletter.block
+wired.com##.cm-subscribe-link-wrapper, .subscribe, .subscribe-panel-component
+wsj.com###cx-article-newsletter-tile, #subscribeNowMediumBar, .WSJTheme__signup_2Ht8gW1wgqoJwLXY6GkF72, .newsletter-inset, .temp-subscribe[href="https://subscribe.wsj.com/hpheaderlink"], .type-InsetNewsletterSignup, [class*="-NewsletterContainer"], [data-inset_type="newsletterinset"]
+wsj.com##[class*="media-layout"] > [class*="NewsletterSignup__NewsletterContainer"]:upward(1)
+yesmovies.*##.xc-subs
+zdnet.com##.newsletterWidgetForm, div[id^="newsletter-widget"]
+zerohedge.com###block-zh_glue-newsletter, #newsletter, #sidebar-form, .newsletter-insert, [class*="MidArticleNewsletter_midArticle"], [class*="SidebarNewsletter_sidebarForm"]
+zmescience.com##.ps-container.cp-slidein-content
+
+! Network rules
+||*/app/email-signup/inline-article-news.html$subdocument
+||cbsnews.com/newsletters/$subdocument
+||marketingautomation.services$subdocument
+||mercurynews.com/newsletters-signup/$subdocument
+||ocweekly.com/*_Reskin_newsletters$image
+/wp-content/plugins/mailoptin/
+||substack.com/embed$third-party
+||omnisnippet1.com^$third-party
+||maillist-manage.com^$third-party
+||images.tcdn.com.br/files/js/newsletter-popup.js
+||my.sendinblue.com/users/subscribe/$third-party,subdocument
+||embed.secondstreetapp.com^$third-party
+||acumbamail.com^$third-party
+||kamogawa.mag2.com/editor/pub-form/$third-party
+||mail-wind.com/js/rss_regist_$third-party
+||forms.aweber.com^$third-party
+||news-bozebe.cc^$third-party
+||embeds.fanmatics.com^$third-party
+||inyourarea.co.uk^$third-party
+||js.emailable.com^$third-party
+||loader.wisepops.com^$third-party
+||cp.unisender.com/form-widget-loader.js$third-party
+||signup.e2ma.net^$third-party
+/e2ma.js
+||static-cdn.e2ma.net/signups/$third-party
