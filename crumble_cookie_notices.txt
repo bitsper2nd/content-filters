@@ -294,7 +294,7 @@ dw.com##.cmpwrapper
 ebay.*,yahoodatabreachsettlement.com###gdpr-banner
 espn.*##.active.js-feed-item-mask, .active.news-feed-item > .story_progress > .bar, .alert--fixed.alert--center.alert, .bg-opaque.mod-outbrain.mod-no-border, .cookie-overlay, .js-bloomed.favorites-mgmt.lightbox, .promo-banner-container
 europeantour.com###modalCookieContainer
-fanatical.com##.biscuit-auth-collapsible-wrapper
+fanatical.com##.wafer-auth-collapsible
 fifa.com##.fi-back-to-top, .fi-cookie-banner
 fiverr.com###react-cookie-approval
 flightglobal.com,flightstats.com###rbiCookiePolicy_pushDownBoxWrapper
