@@ -1,4 +1,6 @@
-# Recommended filters for uBlock Origin
+# Filters for uBlock Origin/AdGuard
+
+My recommended filters for uBlock Origin or AdGuard.
 
 ## Privacy
 
@@ -8,9 +10,7 @@
 
 3) [**Actually Legitimate URL Shortener Tool**](https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt) (2k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt&title=Actually%20Legitimate%20URL%20Shortener%20Tool)
 
-4) [**HTTPS-Only Mode For All Browsers**](https://github.com/DandelionSprout/adfilt/blob/master/Special%20security%20lists/HTTPSOnlyModeForAllBrowsers.txt) (7 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Special%20security%20lists/HTTPSOnlyModeForAllBrowsers.txt&title=HTTPS%20Only%20Mode%20For%20All%20Browsers)
-
-5) [**Block third-party fonts**](https://github.com/yokoffing/filterlists/blob/main/block_third_party_fonts.txt) (70 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt&title=Block%20third-party%20fonts)
+4) [**Block third-party fonts**](https://github.com/yokoffing/filterlists/blob/main/block_third_party_fonts.txt) (70 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt&title=Block%20third-party%20fonts)
 
 
 ## Annoyances
