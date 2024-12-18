@@ -317,6 +317,7 @@ itv.com###itv-glob-cookie-policy, .js-site-alert.site__alert, .wrapp-cookie
 itv.com##.syrenis-cookie-widget
 itv.com##body:style(overflow: auto !important;)
 lenovo.com##.cookie-remind-warpper
+kick.com##.z-modal
 malwarebytes.com###cookie-consent-alert, #lightbox-overlay, #lightbox-popup
 masters.com##.privacy-notice
 matcha-jp.com##.cookie-info
