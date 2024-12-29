@@ -2067,6 +2067,7 @@
 ||smartyads.com^$third-party
 ||smilewanted.com^$third-party
 ||smileymedia.com^$third-party
+||snowplow.io$third-party
 ||smowtion.com^$third-party
 ||smrtlnks.com^$third-party
 ||smtad.net^$third-party
@@ -2544,9 +2545,8 @@
 ||pagead2.googlesyndication.com^$third-party
 ||googletagmanager.com^$third-party
 ||googletagservices.com^$third-party
-!
+
 ! Other search engines
-!
 ||bat.bing.com^$third-party
 ||adserver.yahoo.com^$third-party
 ||ads.yahoo.com^$third-party
@@ -2569,7 +2569,6 @@
 ||trk.pinterest.com^$third-party
 ||events.reddit.com^$third-party
 ||events.redditmedia.com^$third-party
-!
 ||ads.linkedin.com^$third-party
 ||analytics.pointdrive.linkedin.com^$third-party
 
