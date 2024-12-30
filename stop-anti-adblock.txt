@@ -1,0 +1,6 @@
+! Title: 🛑 Stop Anti-Adblock Popups
+! Description: Remove Anti-Adblock Popup Overlays.
+! Homepage: https://github.com/bitsper2nd/content-filters
+! Expires: 3 Days
+
+!#include https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/AnnoyancesFilter/Popups/sections/antiadblock.txt
