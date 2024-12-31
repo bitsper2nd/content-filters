@@ -1,0 +1,6 @@
+! Title: 🤳 Remove Self Promos
+! Description: Remove banners promoting website products.
+! Homepage: https://github.com/bitsper2nd/content-filters
+! Expires: 3 Days
+
+!#include https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/AnnoyancesFilter/Other/sections/self-promo.txt
