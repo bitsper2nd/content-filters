@@ -276,6 +276,7 @@ bloomberglaw.com##[class*="CookieNotice_cookiesBar"]
 bloomberglaw.com,codex.online,evry.com,neweracap.com,threadreaderapp.com##.cookies
 bloombergtax.com##[class*="CookieNotice_cookiesBar"]
 bt.com##.cookie-ui__cookieUI___3fxp1
+caribbeancinemas.com###q-notify
 chocolatey.org###cookieNoticeAlert
 gdconf.com##.cookies-popup
 ckeditor.com,mcdonalds.com#@#.cookie-banner
@@ -346,6 +347,7 @@ rappler.com###cookie-popup-rappler, #emailPopupDiv
 razer.com##tos-razer-cookies
 realclearpolitics.com##.cc-stop-overlay, .cc-window
 redhat.com##.redhat-cookie-banner
+remove.bg###wrapper
 reuters.com##html[style*="overflow: hidden;"]:style(overflow: auto !important;)
 reviewjournal.com##.accept-cookie
 revolver.news##.notice
