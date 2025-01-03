@@ -360,6 +360,7 @@ statefarm.com###notice
 statista.com###cookiesNotification
 store.vuetifyjs.com##.v-footer--fixed
 svelte.dev#@##cookie
+swappa.com###offcanvasCookiesConsent
 symbl.cc##.cookie__wrapper
 symphony.com##.sym-cookie-container-fluid
 telegraph.co.uk###qb_cookie_consent_main
