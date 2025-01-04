@@ -281,7 +281,7 @@ thepostmillennial.com##.newsletter.banner.partial, .subscription.partial
 theregister.co.uk###article_newsletter_signup, #story_rhs_ml_signup, .newsletter_and_social, .newsletter_link
 thestreet.com###subscribe_premium
 thesunmagazine.org##.cta, .cta-free-trial, .cta-newsletter, .header-nav-subscribe
-theverge.com###subForm
+theverge.com###zephr-footer-container
 theweek.com###art-subscribe-unit-outer, #art-subscribe-unit-outer-graphic, .article-risk-free-offer, .col300_signup, .signup-nl-right-rail-top, .signup-nl-right-recirc-middle, .subscribe-module, .subscribe-unit-header
 thewirecutter.com##.newsletter, .newsletter-container, ._610037e6
 thewirecutter.com##div#__next > div:has-text(/Sign up for/)
