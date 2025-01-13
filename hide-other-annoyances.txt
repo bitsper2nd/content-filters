@@ -1,6 +1,0 @@
-! Title: 📕 Hide Other Annoyances
-! Description: Hide or remove other Annoyances from websites.
-! Homepage: https://github.com/bitsper2nd/content-filters
-! Expires: 3 Days
-
-!#include https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/annoyances-others.txt
