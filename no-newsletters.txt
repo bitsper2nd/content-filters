@@ -353,3 +353,4 @@ zmescience.com##.ps-container.cp-slidein-content
 ||signup.e2ma.net^$third-party
 /e2ma.js
 ||static-cdn.e2ma.net/signups/$third-party
+||assets.zephr.com$third-party
