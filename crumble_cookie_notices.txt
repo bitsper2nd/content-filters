@@ -337,6 +337,7 @@ nvidia.com###cookiePolicy-layer
 nyse.com###cookie-disclaimer
 nytimes.com###gateway-content, #lireDock, #overlay, #step-two-modal, #welcome-back-modal, .ButtonModal-container--2sXp8, .LoginPrompt-loginPrompt, .MAG_web_anon_coronavirus-dock, .bundle-payflow, .bundle-payflow-module, .expanded-dock, .gdpr[data-testid="gdpr-dock"], .modal:not([class="modal user-settings-modal "]):not(.swiper-slide), .nytc---modal-window---contentBase, .nytc---modal-window---windowContainer, .nytc---shared---modalContentContainer, .overlay:not(svg), [data-testid="expanded-dock"]:style(display: none !important;)
 nytimes.com##div span[data-gtm-trigger="cookie_banner_dismiss"]:upward(1)
+oemdrivers.com###cookiescript_injected_wrapper
 oup.com###oupcookiepolicy_message
 pastebin.com##.popup-container > .-cookies.popup-box
 paypal-community.com##.cookie-notification, .lia-cookie-banner-alert
