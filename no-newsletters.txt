@@ -1,7 +1,7 @@
 ! Title: 📪 No Newsletters
 ! Description: Remove newsletter popups and modals.
 ! Homepage: https://github.com/bitsper2nd/content-filters
-! Expires: 3 Days
+! Expires: 7 Days
 
 ! Global Cosmectic rules
 ##.post-end-cta-full

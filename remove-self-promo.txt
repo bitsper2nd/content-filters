@@ -1,7 +1,7 @@
 ! Title: 🤳 Remove Self Promos
 ! Description: Remove banners promoting website products.
 ! Homepage: https://github.com/bitsper2nd/content-filters
-! Expires: 3 Days
+! Expires: 7 Days
 
 !Cosmetic Rules
 12ft.io###ad

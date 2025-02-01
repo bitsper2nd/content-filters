@@ -1,7 +1,7 @@
 ! Title: 🍪 Crumble Cookie Notices
 ! Description: Remove Cookie/GDPR Banners, Notices, Overlays & Warnings.
 ! Homepage: https://github.com/bitsper2nd/content-filters
-! Expires: 3 Days
+! Expires: 7 Days
 
 ! Global Cosmetic Rules
 ###__tealiumGDPRecModal

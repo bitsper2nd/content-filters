@@ -1,7 +1,7 @@
 ! Title: 🛑 Stop Anti-Adblock Popups
 ! Description: Remove Anti-Adblock Popup Overlays.
 ! Homepage: https://github.com/bitsper2nd/content-filters
-! Expires: 3 Days
+! Expires: 7 Days
 
 ! Cosmetic rules
 ##.ad-blocking-advisor-wrapper
