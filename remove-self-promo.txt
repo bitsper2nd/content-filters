@@ -16,6 +16,8 @@ ablesci.com#?#.layui-col-md4 > div.fly-panel:has(> div[style^="text-align: cente
 academy.mixer.com##div[aria-label="banner"]
 accuweather.com##.sidebar-telmet-promo
 aclu.org###block-aclu-promotions-aclu-promotions-banner
+adguard.com###sticky_bar_fixed
+adguard.com###sticky_bar_static > .container
 adlock.com##.download-panel
 adlock.com##.panel > div.aside__cta
 admin.blog.fc2.com##.adimn_pr_txt
@@ -81,6 +83,7 @@ apkcombo.com#?#.column > div.widget:has(> a.installer)
 apkmirror.com###bottom-slider
 apkmirror.com##.promotedAppListing
 apkmonk.com##.apkmonk_banner
+apkpure.com##.chrome-install-pop
 apkpure.com##.vip-subscribe-pop
 apkpure.com##img[data-slot-code]
 app.chitchat.gg##.bg-panel > div.relative:has(> img[src$="crown.svg"])
@@ -551,6 +554,7 @@ freecouchtuner.com#?#div:has(> a[href="/user/profile/premium-membership"]):not(:
 freepik.com##.spr--internal
 freewaresys.com##.FloatingContainer
 fromcocoro.com###text-12
+ft.com##.o-banner__inner
 funabashi-tsushin.com###main > a[href="https://funabashi-tsushin.com/banner_ads"]
 futurehosting.com##.blog-product
 fux.com##.transparent-button.ugc
