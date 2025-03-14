@@ -4,10 +4,10 @@
 ! Expires: 7 Days
 
 ! Global Cosmectic rules
+##.background-qPxN3C
 ##.post-end-cta-full
 ##article > [class*="_subscribeDialog_"]
 ##article > [class*="_background_"]
-##.intro-popup
 ###main:style(visibility: visible !important;)
 ##html.modal-in, html.show-intro-popup:style(overflow: auto !important;)
 ##.has-intro-popup.show-intro-popup body:style(height: auto !important; width: auto !important; overflow: auto !important;)
@@ -21,6 +21,7 @@
 ##.google-news-block
 ##.jetpack_subscription_widget
 ##.Sailthru_Subscribe
+##.subscribeDialog-ApxQJS
 ##.wp-block-xwp-newsletter-subscription
 ##.w-newsletter-in_article
 ##.smartmag-widget-newsletter
@@ -303,6 +304,7 @@ usnews.com##[class*="KioskFirstClass__Container-sc-"], [class*="KioskEconomy__Co
 vanityfair.com##.component-newsletter-cta, .newsletter-subscribe-form, .subscription-form
 variety.com###subscribe-link-section, .c-widget--newsletter.c-widget, .hp-panel__newsletter-signup, .newsletter
 venturebeat.com##[id^="lightbox-"]
+venturebeat.com###newsletter-signup
 vera.org###PopupEmailSignup
 vice.com##.interstitial, .newsletter-promo, .newsletter-wrapper, .user-newsletter-signup
 viewfromthewing.com###ba-flybox, .subscribe
