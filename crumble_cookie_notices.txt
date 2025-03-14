@@ -267,6 +267,7 @@
 accuweather.com##.privacy-policy-banner
 anker.com##div[class^="FeatureBar"]
 anycodes.com##.privacy_policy_pop
+apkpure.com###policy-info
 avsforum.com###ukCookiePopup, #vspopup-all-overlays
 bbc.co.uk,bbc.com###bbccookies, #cookiePrompt
 bbcstudios.com,cvce.eu,hearst.co.uk#@#.cookie-policy
@@ -285,6 +286,7 @@ complex.com##.video-bar-on-scroll--showing-cookie-notice
 complex.com##.video-embed-floated--showing-cookie-notice.vidible-embed:style(position: static !important;)
 dailymotion.com##+js(set-cookie, cookie_policy_closed, 1, , reload, 1)
 datacenterdynamics.com##.cc-banner.cc-window
+deezer.com##+js(trusted-click-element, button#gdpr-btn-refuse-all, , 1000)
 dell.com###consent-button-div
 developers.google.com##.devsite-notification-eu-cookie, .devsite-snackbar-snack[type="cookie-notification"]
 dfiles.eu##.cookie_popup
@@ -318,6 +320,7 @@ itv.com###itv-glob-cookie-policy, .js-site-alert.site__alert, .wrapp-cookie
 itv.com##.syrenis-cookie-widget
 itv.com##body:style(overflow: auto !important;)
 lenovo.com##.cookie-remind-warpper
+lenovo.com###evidon_banner_wrap
 kick.com##.z-modal
 malwarebytes.com###cookie-consent-alert, #lightbox-overlay, #lightbox-popup
 masters.com##.privacy-notice
@@ -373,6 +376,7 @@ thepostmillennial.com###main-cookie-banner, #main-trust-badge, .sh-back-to-top, 
 thetimes.co.uk###tto-cookieMessage, #tto-cookieMessageInner
 tickets.com###mainCookieDiv
 timesofisrael.com##.cc-popup
+truthsocial.com##.fixed
 uber.com##[data-baseweb="toaster"]:has-text(/third party cookies/)
 weather.com##[id^="WxuPrivacyDataNotice-main-"], [id^="WxuPrivacyDataNotice-meta"], [id^="main-PrivacyDataNotice"]
 wolframalpha.com##._Sjp9:has-text(/cookies/)
@@ -389,6 +393,7 @@ yubico.com##.cookie-pop
 ||2badvice-cdn.azureedge.net^
 ||app.termly.io^
 ||axeptio.imgix.net^
+||cdn-assets.dzcdn.net/common/js/gdpr-appliance.js
 ||cdn-cookieyes.com^
 ||cdn-iubenda.b-cdn.net^
 ||cdn.priv.center^
